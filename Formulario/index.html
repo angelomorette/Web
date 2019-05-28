@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulário</title>
+    </head>
+    <body>
+        <form>
+
+        <p>Dados Pessoais</p>
+
+       Nome:<input type="text"><br>
+       Endereço:<input type="text"><br>
+       Cidade:<input type="text"><br>
+       Estados:<input type="search"><br>
+        <select id="Estados" style="display:hidden;">
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        </select>
+
+        <p>Dados Profissionais</p>
+
+        <p>Natureza do Cargo</p>
+
+        <input type="radio" name="job" value="ads"> Gerêrencia
+        <input type="radio" name="job" value="cc"> Financeiro
+        <input type="radio" name="job" value="redes"> Recepção
+        <input type="radio" name="job" value="redes"> Administrativo
+        <input type="radio" name="job" value="redes"> Jurídico<br>
+        
+        <p>Área de Interesse</p>
+
+        <input type="checkbox" name="AreaCom" value="Com"> Computação 
+        <input type="checkbox" name="AreaBio" value="Bio"> Biologia 
+        <input type="checkbox" name="AreaMeiBio" value="MeiBio"> Meio Ambiente 
+        <input type="checkbox" name="AreaEng" value="Eng"> Engenharia 
+        <input type="checkbox" name="AreaHis" value="His"> História<br>
+
+        Mini-Curriculum 
+        <textarea name="message" rows="20" cols="40"></textarea><br>
+        
+        <button>Enviar</button>
+        <button>Limpar</button>
+
+        </form>
+    </body>
+</html>
